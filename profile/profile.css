@@ -1,0 +1,89 @@
+body{
+    font-family: 'Cinzel', serif;
+}
+
+.head {
+    width: 100%;
+    height: 4em;
+    background-color: #fff;
+  }
+.img {
+    height: 100%;
+    background-image: url('./CRIMSON-removebg-preview.png');
+    background-size: 100% 100%;
+    margin: auto;
+    float: left;
+    width: 60%;
+}
+
+
+.title {
+    background : rgba(241,241,241,1);
+    padding: 1.5em;
+    border-radius: 0.7em;
+    fill: rgba(241,241,241,1);
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    margin: auto;
+    border: 0;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+
+ margin-top: 35%;
+ margin-bottom: 50%;
+ 
+    
+}
+
+.container {
+    /* width: 100%; */
+    /* padding-right: 15px; */
+    padding-left: no;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    width: 100%;
+}
+
+/* .title1{
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+
+} */
+
+.desk{
+    display: none;
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 728px){
+    .mobile {
+        display: none;
+    }
+    .desk {
+        display: block;
+    }
+}
+
+
+.ico img {
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    padding: 0.4em;
+  
+}
+
+.form-control {
+    padding-left: 2.5em;
+    height: 3em;
+}
+
+
